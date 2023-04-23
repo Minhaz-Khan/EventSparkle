@@ -6,6 +6,7 @@ export default function Home() {
     <main>
       <div>
         <h1>hello world</h1>
+        <h1>hello all</h1>
       </div>
     </main>
   )
