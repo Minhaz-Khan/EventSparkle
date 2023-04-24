@@ -1,10 +1,13 @@
+import Hero from "@/Components/CustomComponnents/Hero/Hero";
+import ServiceSection from "@/Components/CustomComponnents/ServiceSection/ServiceSection";
 
 export default function Home() {
   return (
     <main>
       <div>
-        <h1>bangladesh</h1>
+        <Hero />
+        <ServiceSection />
       </div>
     </main>
-  )
+  );
 }

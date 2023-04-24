@@ -6,6 +6,7 @@ const Hero = () => {
             <h4>hero component</h4>
         </div>
     );
+
 };
 
 export default Hero;
