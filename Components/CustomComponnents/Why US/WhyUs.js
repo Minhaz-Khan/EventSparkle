@@ -12,9 +12,10 @@ const WhyUs = () => {
       </div>
       {/* section */}
       <div className="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 my-8  gap-5">
+        {/* 1 */}
         <div className="md:my-4 items-center  my-2 xl:my-4 lg:my-4 md:flex xl:flex lg:flex md:text-left xl:text-left lg:text-left text-center">
           <div  className="w-16 mx-auto md:mr-3 xl:mr-3 lg:mr-3 ">
-            <TbArmchair2 className="text-7xl  p-2 " />
+            <TbArmchair2 className="text-7xl  p-2"/>
           </div>
           <div>
             <h1 className="text-3xl mb-1 font-semibold">Exclusive Design</h1>
@@ -76,5 +77,5 @@ const WhyUs = () => {
   );
 };
 
-// text-cyan-950
+
 export default WhyUs;
