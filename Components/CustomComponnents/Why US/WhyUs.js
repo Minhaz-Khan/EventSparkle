@@ -5,10 +5,10 @@ import { MdDiversity1, MdRoomService } from "react-icons/md";
 
 const WhyUs = () => {
   return (
-    <div className="my-10 border">
-      <div>
-        <h1 className="text-7xl font-semibold ml-16">Why Us</h1>
-        <h3 className="text-xl mt-3 font-semibold ml-16">FOR ALL YOUR CATERING NEEDS </h3>
+    <div className="my-10 ">
+      <div className="md:ml-16 my-2 xl:ml-16 lg:ml-16 text-center md:text-left xl:text-left lg:text-left">
+        <h1 className="text-7xl font-semibold  ">Why Us</h1>
+        <h3 className="text-xl mt-3 font-semibold ">FOR ALL YOUR CATERING NEEDS </h3>
       </div>
       {/* section */}
       <div className="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 my-8  gap-4">
@@ -76,4 +76,5 @@ const WhyUs = () => {
   );
 };
 
+// text-cyan-950
 export default WhyUs;
