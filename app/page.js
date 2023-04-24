@@ -1,14 +1,16 @@
-import WhyUs from "@/Components/CustomComponnents/Why US/WhyUs";
 
 export default function Home() {
   return (
+    <>
+    <Head>
+        <title>home page</title>
+    </Head>
+    
     <main>
       <div>
-        {/* why us section start */}
-        <div>
-          <WhyUs/>
-        </div>
+        <h1>bangladesh</h1>
       </div>
     </main>
+    </>
   )
 }
