@@ -3,11 +3,17 @@ import ServiceSection from "@/Components/CustomComponnents/ServiceSection/Servic
 
 export default function Home() {
   return (
-    <main>
-      <div>
-        <Hero />
-        <ServiceSection />
-      </div>
-    </main>
+    <>
+      <Head>
+        <title>home page</title>
+      </Head>
+
+      <main>
+        <div>
+          <Hero />
+          <ServiceSection />
+        </div>
+      </main>
+    </>
   );
 }
