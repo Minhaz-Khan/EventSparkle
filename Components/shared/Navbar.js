@@ -1,4 +1,4 @@
-'use client';
+"use client"
 import Link from "next/link";
 import { useState } from "react";
 import { GoThreeBars } from "react-icons/go";
@@ -6,9 +6,10 @@ import { GrFormClose } from "react-icons/gr";
 
 
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(true); 
+    const [isOpen, setIsOpen] = useState(false); 
     console.log(isOpen)
     return (
+
       <header className="py-5 bg-white">
       <div className="container">
         <nav className="flex justify-between items-center">
@@ -18,7 +19,7 @@ const Navbar = () => {
           <ul
             className={`${
               isOpen
-                ? "fixed top-0 left-0 right-[50%] h-full flex flex-col justify-center items-center bg-white"
+                ? "fixed top-20 left-0 right-[50%] h-full flex flex-col justify-center items-center bg-white"
                 : "hidden md:relative md:block "}`}
           >
             <li className="inline-block mx-3">
@@ -40,7 +41,7 @@ const Navbar = () => {
               <Link href={"contact-us"}>Contact Us</Link>
             </li>
             <span
-              className={`${isOpen ? "absolute top-6 right-6" : "md:hidden"}`}
+              className={`${isOpen ? "absolute top-0 right-6" : "md:hidden"}`}
             >
               <GrFormClose size={30} onClick={() => setIsOpen(false)} />
             </span>
