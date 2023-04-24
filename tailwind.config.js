@@ -13,8 +13,8 @@ module.exports = {
     extend: {
       colors: {
         bg_Primary: '#748173',
-        text_Primary: '#749383',
-        text_Secondry: '#e9d6c2'
+        textPrimary: '#749383',
+        textSecondry: '#e9d6c2',
       }
     },
   },
