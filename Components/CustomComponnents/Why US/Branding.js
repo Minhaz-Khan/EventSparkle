@@ -5,6 +5,7 @@ const Branding = () => {
   return (
     <div className=" bg-bg_Primary">
       <div className=" w-11/12 mx-auto py-5">
+        {/* section start */}
         <Marquee direction="right" speed={30} delay={5}>
           <div className="image_wrapper">
             <a href="/">
