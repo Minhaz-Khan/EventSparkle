@@ -6,6 +6,7 @@ import { GrFormClose } from "react-icons/gr";
 
 
 const Navbar = () => {
+
     const [isOpen, setIsOpen] = useState(false); 
     console.log(isOpen)
     return (

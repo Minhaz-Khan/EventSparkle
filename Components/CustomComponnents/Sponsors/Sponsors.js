@@ -1,7 +1,11 @@
 "use client"
+// import { useRouter } from 'next/compat/router';
 import React, { useRef, useState } from 'react';
 
+
 const Sponsors = () => {
+  
+
     const sliderRef = useRef(null);
   const [slideIndex, setSlideIndex] = useState(0);
 
