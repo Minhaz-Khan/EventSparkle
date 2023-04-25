@@ -73,6 +73,7 @@ const WhyUs = () => {
           </div>
         </div>
       </div>
+      {/* section end */}
     </div>
   );
 };
