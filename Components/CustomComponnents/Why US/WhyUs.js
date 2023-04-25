@@ -10,7 +10,7 @@ const WhyUs = () => {
         <h1 className="text-7xl font-semibold ">Why Us</h1>
         <h3 className="text-base mt-3 font-semibold ">FOR ALL YOUR CATERING NEEDS </h3>
       </div>
-      {/* section */}
+      {/* section start */}
       <div className="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 my-8  gap-5">
         {/* 1 */}
         <div className="md:my-4 items-center  my-2 xl:my-4 lg:my-4 md:flex xl:flex lg:flex md:text-left xl:text-left lg:text-left text-center">
