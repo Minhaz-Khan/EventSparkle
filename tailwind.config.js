@@ -8,17 +8,23 @@ module.exports = {
 
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    'node_modules/preline/dist/*.js',
   ],
   theme: {
     extend: {
       colors: {
         bg_Primary: '#748173',
-        textPrimary: '#749383',
-        textSecondry: '#e9d6c2',
-      }
+        text_Primary: '#749383',
+        text_Secondry: '#e9d6c2'
+      },
+      fontFamily: {
+        'El Messiri': ['El Messiri', 'sans - serif'],
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('preline/plugin'),
+  ],
 }
 
 // bacground primary #748173

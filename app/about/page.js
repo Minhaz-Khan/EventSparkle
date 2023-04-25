@@ -1,14 +1,14 @@
 import Head from "next/head";
 
-export default function Home() {
+export default function About() {
   return (
     <>
     <Head>
-        <title>home page</title>
+        <title>About Page</title>
     </Head>
     
     <main>
-    <h1>home content</h1>
+    <h1>About Page</h1>
     </main>
     </>
   )
