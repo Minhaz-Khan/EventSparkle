@@ -5,7 +5,7 @@ import { MdDiversity1, MdRoomService } from "react-icons/md";
 
 const WhyUs = () => {
   return (
-    <div className="my-10 ">
+   <div className="my-10 ">
       <div className="md:ml-16 my-2 xl:ml-16 lg:ml-16 text-center md:text-left xl:text-left lg:text-left">
         <h1 className="text-7xl font-semibold ">Why Us</h1>
         <h3 className="text-base mt-3 font-semibold ">FOR ALL YOUR CATERING NEEDS </h3>
