@@ -8,7 +8,6 @@ module.exports = {
 
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
-    'node_modules/preline/dist/*.js',
   ],
   theme: {
     extend: {
@@ -18,13 +17,11 @@ module.exports = {
         text_Secondry: '#e9d6c2'
       },
       fontFamily: {
-        'El Messiri': ['El Messiri', 'sans - serif'],
+        El_Messiri: ['El Messiri'],
       },
     },
   },
-  plugins: [
-    require('preline/plugin'),
-  ],
+  plugins: [],
 }
 
 // bacground primary #748173
