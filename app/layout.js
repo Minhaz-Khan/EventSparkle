@@ -5,7 +5,7 @@ import Footer from '@/Components/shared/Footer'
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className='max-w-[1350px] mx-auto'>
         <Navbar></Navbar>
         {children}
         <Footer></Footer>
