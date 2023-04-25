@@ -19,8 +19,8 @@ const Navbar = () => {
     //   })
   }
   return (
-    <header className="">
-      <nav x-data="{ isOpen: false }" className="relative bg-white shadow dark:bg-gray-800">
+    <header className=" ">
+      <nav x-data="{ isOpen: false }" className="  shadow dark:bg-gray-800 absolute z-10 left-0 right-0">
         <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
             <Link href={'/'} className='flex items-center'>
