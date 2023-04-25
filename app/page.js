@@ -1,3 +1,4 @@
+import Sponsors from "@/Components/CustomComponnents/Sponsors/Sponsors";
 import Head from "next/head";
 
 export default function Home() {
@@ -8,6 +9,8 @@ export default function Home() {
     </Head>
     
     <main>
+
+      <Sponsors></Sponsors>
     <h1>home content</h1>
     </main>
     </>
