@@ -23,6 +23,8 @@ const Banner = () => {
         { id: 1, text1: "D R E A M   M A K E R", text2: "International & Destination", text3: "Wedding Planner", text4: "No matter your dreams - we can assist you in planning your", text5: "wedding - events", pic: `${pic1.src}` },
 
         { id: 2, text1: "D R E A M   M A K E R", text2: "International & Destination", text3: "Wedding Planner", text4: "No matter your dreams - we can assist you in planning your", text5: "wedding - events", pic: `${pic2.src}` },
+
+        { id: 3, text1: "D R E A M   M A K E R", text2: "International & Destination", text3: "Wedding Planner", text4: "No matter your dreams - we can assist you in planning your", text5: "wedding - events", pic: `${pic3.src}` },
         
     ];
 
@@ -48,7 +50,7 @@ const Banner = () => {
                 }}
                 // navigation={true}
                 modules={[Autoplay, Pagination]}
-                className="mySwiper h[800px]"
+                className="mySwiper"
 
                 onSlideChange={handleSlideChange}
             >
