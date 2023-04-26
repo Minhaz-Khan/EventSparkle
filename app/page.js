@@ -1,6 +1,8 @@
-import Hero from "@/Components/CustomComponnents/Hero/Hero";
 import ServiceSection from "@/Components/CustomComponnents/ServiceSection/ServiceSection";
+import Sponsors from "@/Components/CustomComponnents/Sponsors/Sponsors";
+import WhyUs from "@/Components/CustomComponnents/Why US/WhyUs";
 import Head from "next/head";
+
 
 export default function Home() {
   return (
@@ -10,9 +12,16 @@ export default function Home() {
       </Head>
 
       <main>
+
         <div>
-          <Hero />
           <ServiceSection />
+          {/* why us section start */}
+          <div>
+            <WhyUs />
+          </div>
+          <div>
+            <Sponsors></Sponsors>
+          </div>
         </div>
       </main>
     </>
