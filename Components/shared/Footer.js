@@ -2,15 +2,15 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="py-5 bg-[#001C38] text-white">
+        <footer className="py-5 bg-black text-white">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
-          <div>
-            <h3 className="text-2xl mb-3">EventSparkle</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-7 mx-8">
+          <div className="col-span-2">
+            <h3 className="text-3xl mb-3">EventSparkle</h3>
             <p>Hi, I’m Samantha, a wedding planner, and designer who loves life in the wonderful New York. The nestam acuam nec odio the elementum.</p>
           </div>
-          <div>
-            <h3 className="mb-3 text-lg">Explore</h3>
+          <div className="col-span-1">
+            <h3 className="mb-3 text-3xl">Explore</h3>
             <ul>
               <li className="my-2">
                 <Link href={"#"} className="hover:text-slate-500">
@@ -44,8 +44,8 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
-            <h3 className="mb-3 text-lg">Get In Touch</h3>
+          <div className="col-span-2">
+            <h3 className="mb-3 text-3xl">Get In Touch</h3>
             <address>
                 <p>1010 Broadway NY, New York 10001
 United States of America</p>
