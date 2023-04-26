@@ -2,13 +2,15 @@
 import Link from "next/link";
 import { useState } from "react";
 import ActiveLink from "../ActiveLink/ActiveLink";
-// import { GoThreeBars } from "react-icons/go";
-// import { GrFormClose } from "react-icons/gr";
+import { useRouter } from "next/router";
+import { usePathname } from 'next/navigation';
 // import { toast } from 'react-hot-toast';
 
 
 const Navbar = () => {
   // const { user, logOut } = useContext(AuthContext)
+  const pathname = usePathname();
+  console.log(pathname)
   const user = true;
   const [isOpen, setIsOpen] = useState(false)
   // const [isDashBoard, setIsDashBoard] = useState(true)
@@ -18,9 +20,14 @@ const Navbar = () => {
     //     toast.success('logOut successfully')
     //   })
   }
+  window.addEventListener('scroll', function () {
+    const navbar = document.querySelector('.navbar');
+    // get the reference
+    const heroHeader = ''
+  })
   return (
     <header className=" ">
-      <nav x-data="{ isOpen: false }" className="  shadow dark:bg-gray-800 absolute z-10 left-0 right-0">
+      <nav x-data="{ isOpen: false }" className="navbar transition-all  shadow dark:bg-gray-800 absolute z-10 left-0 right-0 top-0">
         <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
             <Link href={'/'} className='flex items-center'>
