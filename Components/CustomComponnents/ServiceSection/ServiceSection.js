@@ -1,41 +1,33 @@
 import React from 'react';
-import { ImArrowRight2 } from 'react-icons/im';
-import { CgProfile } from 'react-icons/cg';
-import { MdCake } from 'react-icons/md';
 import './ServiceCard.css';
 import ServiceCard from './ServiceCard';
 
-const serviceList = [
-    {
-        name: 'Wedding',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-        icon: <MdCake className=' text-black' />
-    },
-    {
-        name: 'Birthday',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-        icon: <MdCake className=' text-black' />
-    },
-    {
-        name: 'Family Party',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-        icon: <MdCake className=' text-black' />
-    }
-];
 
+const services = [
+
+    {
+        img: 'https://webredox.net/demo/wp/florya/wp-content/uploads/2022/11/1-1.jpg',
+        name: <em> wedding planing</em>
+    },
+    {
+        img: 'https://webredox.net/demo/wp/florya/wp-content/uploads/2022/11/5.jpg',
+        name: <em> BirthDay</em>
+    },
+    {
+        img: 'https://webredox.net/demo/wp/florya/wp-content/uploads/2022/11/6.jpg',
+        name: <em> wedding</em>
+    },
+];
 const ServiceSection = () => {
     return (
         <>
-            <h2 className='text-center font-bold
-          text-3xl uppercase'>Our Best Service</h2>
-            <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+            <p className="text-center text-4xl uppercase text-text_Primary mb-3 font-bold
+            ">our best service</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto gap-5 lg:max-w-5xl p-3">
                 {
-                    serviceList.map((service, ind) => <ServiceCard key={ind} service={service} />)
+                    services.map((service, ind) => <ServiceCard key={ind} service={service} />)
                 }
-
             </div>
-            <button className='block w-full text-center font-bold
-          text-3xl uppercase my-10'>ALL Service</button>
         </>
     );
 };

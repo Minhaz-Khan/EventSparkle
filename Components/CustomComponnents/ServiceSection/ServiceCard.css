@@ -1,67 +1,68 @@
-.container:hover {
-    transition: all 4s ease-in;
+.img-hover-zoom {
+    height: 400px;
+    overflow: hidden;
 }
 
-.circle-wrapper {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-}
-
-.icon {
-    position: absolute;
-    color: #fff;
-    font-size: 55px;
-    top: 50px;
-    left: 50px;
-    transform: translate(-50%, -50%);
-}
-
-.circle {
-    display: block;
-    width: 100%;
+.img-hover img {
+    transform-origin: 50% 65%;
+    transition: transform 0.8s, filter 1s ease-in-out;
+    filter: brightness(70%);
     height: 100%;
-    border-radius: 50%;
-    padding: 2.5px;
-    background-clip: content-box;
-    /* animation: spin 20s linear infinite; */
 }
 
-.success {
-    background-color: #e9d6c2;
-    border: 2.5px dashed #748173;
+.img-hover:hover img {
+    transform: scale(1.1);
+    filter: brightness(50%);
 }
 
-.box:hover .circle {
-    animation: spin 10s linear infinite;
+.img-hover:hover .name::after {
+    width: 100%;
 }
 
-.btn,
-.btn2 {
-    transition: all .4s ease-in;
-}
-
-.box:hover .btn {
-    background: #e9d6c2;
-
-}
-
-.box:hover .btn2 {
-    background: #748173;
-
+.name {
+    font-size: 30px;
+    padding-bottom: 15px;
+    /* text-transform: lowercase; */
+    width: 100%;
+    transition: all 0.8s cubic-bezier(.86, .01, .15, .99);
 }
 
 
-@keyframes spin {
-
-    100% {
-        transform: rotate(360deg);
-    }
+.name::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    width: 20%;
 }
 
-/* pa {
-    bg_Primary: #748173;
-    text_Primary: #749383;
-    text_Secondry: #e9d6c2
+
+.name,
+.explore {
+    transform: perspective(1px) translateZ(0);
+    transition: 0.4s;
+}
+
+.name::after {
+    background: rgb(184, 182, 182);
+    clip-path: inset(0 10% 0 0);
+    opacity: 1;
+    height: 1px;
+    transition: 0.8s;
+}
+
+/* .name:hover::after {
+    clip-path: inset(0 0 0 0);
 } */
+
+
+.img-hover:hover .explore {
+    bottom: 20px;
+}
+
+.img-hover:hover .name {
+    bottom: 70px;
+}
