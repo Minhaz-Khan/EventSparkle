@@ -1,11 +1,8 @@
+import Banner from "@/Components/CustomComponnents/Banner/Banner";
 import Review from "@/Components/CustomComponnents/UserReview/Review";
 import Head from "next/head";
 
-// import dynamic from 'next/dynamic';
 
-// const Review = dynamic(() => import('../Components/CustomComponnents/UserReview/Review.js'), {
-//   ssr: false
-// });
 
 export default function Home() {
   return (
@@ -16,6 +13,7 @@ export default function Home() {
     
     <main>
     
+    <Banner></Banner>
     
     {/* <Review></Review> */}
     <Review></Review>
