@@ -1,4 +1,7 @@
-import Branding from "@/Components/CustomComponnents/Why US/Branding";
+import Banner from "@/Components/CustomComponnents/Banner/Banner";
+import ServiceSection from "@/Components/CustomComponnents/ServiceSection/ServiceSection";
+import Sponsors from "@/Components/CustomComponnents/Sponsors/Sponsors";
+import Review from "@/Components/CustomComponnents/UserReview/Review";
 import WhyUs from "@/Components/CustomComponnents/Why US/WhyUs";
 import Head from "next/head";
 
@@ -7,26 +10,23 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
-     
-        <Head>
-          <title>home page</title>
-        </Head>
+      <Head>
+        <title>home page</title>
+    </Head>
+    
+    <main>
+    
+    <Banner></Banner>
+    
+    {/* <Review></Review> */}
+    <Review></Review>
 
-        <main>
-          <div>
-            {/* why us section start */}
-            <div>
-              <WhyUs />
-            </div>
-            {/* Branding section start */}
-            <div>
-              <Branding />
-            </div>
-          </div>
-      
-          
-        </main>
-      
+    <ServiceSection></ServiceSection>
+
+    <WhyUs></WhyUs>
+
+    <Sponsors></Sponsors>
+    </main>
     </>
   );
 }
