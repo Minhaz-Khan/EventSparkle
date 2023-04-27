@@ -7,23 +7,26 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
-    <Head>
+      <Head>
         <title>home page</title>
-    </Head>
-    
-    <main>
-      
-      <div>
-        
-        {/* why us section start */}
+      </Head>
+
+      <main>
+
         <div>
-          <WhyUs/>
+
+          {/* why us section start */}
+          <div>
+            {/* why us section start */}
+            <div>
+              <WhyUs />
+            </div>
+          </div>
+          <div>
+            <Sponsors></Sponsors>
+          </div>
         </div>
-        <div>
-        <Sponsors></Sponsors>
-        </div>
-      </div>
-    </main>
+      </main>
     </>
   )
 }
