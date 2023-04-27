@@ -1,34 +1,26 @@
+"use client"
 import Link from "next/link";
-// import { useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { FcGoogle } from "react-icons/fc";
 import { RiImageAddFill } from "react-icons/ri";
 
 const SignUp = () => {
-  // const {
-  //   register,
-  //   handleSubmit,
-  //   formState: { errors },
-  // } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
-  //   const handleAddProduct = (data) => {
-  // const name = data.username;
-  // const email = data.email;
-  // const password = data.password;
-  // const type = data.type;
+    const handleAddProduct = (data) => {
+  const name = data.username;
+  const email = data.email;
+  const password = data.password;
+  const type = data.type;
+  const datas ={name, email ,password, type}
 
-  //   };
+    };
 
-  const HandelData = (event) => {
-    event.preventDefault();
-    const form = event.target;
-    const name = form.name.value;
-    const email = form.email.value;
-    const password = form.password.value;
-    const image = form.image.value;
-    const types = form.types.value;
-    const file = { name, email, password, types, image };
-    console.log(file);
-  };
+
   const googleHandel = () => {};
 
   return (
@@ -37,7 +29,9 @@ const SignUp = () => {
         <h1 className="text-2xl text-text_Secondry  font-bold text-center">
           signUp
         </h1>
-        <form className="space-y-6 ng-untouched ng-pristine ng-valid">
+        <form
+        onSubmit={handleSubmit(handleAddProduct)}
+         className="space-y-6 ng-untouched ng-pristine ng-valid">
           <div className="space-y-1 text-sm">
             <label htmlFor="username" className="block text-gray-100">
               User name *

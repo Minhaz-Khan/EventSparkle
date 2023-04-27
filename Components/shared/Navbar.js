@@ -104,9 +104,15 @@ const Navbar = () => {
               {/* THIS IS LOGIN */}
               <Link
                 className="my-2 text-lg font-medium text-text_Primary transition-colors duration-300 transform  hover:text-text_Secondry  md:mx-4 md:my-0"
-                href="/SignUp"
+                href="/signUp"
               >
                 Sign Up
+              </Link>
+              <Link
+                className="my-2 text-lg font-medium text-text_Primary transition-colors duration-300 transform  hover:text-text_Secondry  md:mx-4 md:my-0"
+                href="/login"
+              >
+                Log In
               </Link>
 
             

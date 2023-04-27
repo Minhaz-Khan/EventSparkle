@@ -1,9 +1,7 @@
 import Branding from "@/Components/CustomComponnents/Why US/Branding";
 import WhyUs from "@/Components/CustomComponnents/Why US/WhyUs";
-
 import Head from "next/head";
-import SignUp from "./SignUp";
-import Login from "./login";
+
 
 
 export default function Home() {
@@ -25,6 +23,7 @@ export default function Home() {
               <Branding />
             </div>
           </div>
+      
           
         </main>
       
