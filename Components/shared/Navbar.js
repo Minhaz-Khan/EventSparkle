@@ -109,7 +109,7 @@ const Navbar = () => {
                 user ?
                   <>
                     <Link className="my-2 text-lg font-medium text-text_Primary transition-colors duration-300 transform  hover:text-text_Secondry  md:mx-4 md:my-0" href={'/services'}>Services</Link>
-                    <Link className="my-2 text-lg font-medium text-text_Primary transition-colors duration-300 transform  hover:text-text_Secondry  md:mx-4 md:my-0" href={'/dashboard'}>Dashboard</Link>
+                    <Link className="my-2 text-lg font-medium text-text_Primary transition-colors duration-300 transform  hover:text-text_Secondry  md:mx-4 md:my-0" href={'/clientDashboard'}>Dashboard</Link>
                     <Link onClick={handleLogOut} className="my-2 text-lg font-medium  transition-colors duration-300 transform text-gray-800 hover:text-text_Primary md:mx-4 md:my-0" href={''}>Log Out</Link></> :
                   <Link href="/login" className="my-2 text-lg font-medium text-text_Primary transition-colors duration-300 transform  hover:text-text_Secondry  md:mx-4 md:my-0">Login</Link>
               }

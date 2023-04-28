@@ -49,8 +49,9 @@ console.log(images.indexOf())
         {
           images.map((image, index)=>
           <SwiperSlide
+          className="bg-center bg-cover w-[200px] h-[200px]"
           key={index}>
-          <img src={image} />
+          <img src={image} className="block w-full" />
         </SwiperSlide>)
         }
       </Swiper>
