@@ -1,7 +1,10 @@
+import Banner from "@/Components/CustomComponnents/Banner/Banner";
+import ServiceSection from "@/Components/CustomComponnents/ServiceSection/ServiceSection";
 import Sponsors from "@/Components/CustomComponnents/Sponsors/Sponsors";
+import Review from "@/Components/CustomComponnents/UserReview/Review";
 import WhyUs from "@/Components/CustomComponnents/Why US/WhyUs";
-import Button from "@/Components/shared/Buttton";
 import Head from "next/head";
+
 
 
 export default function Home() {
@@ -13,20 +16,17 @@ export default function Home() {
 
       <main>
 
-        <div>
+        <Banner></Banner>
 
-          {/* why us section start */}
-          <div>
-            {/* why us section start */}
-            <div>
-              <WhyUs />
-            </div>
-          </div>
-          <div>
-            <Sponsors></Sponsors>
-          </div>
-        </div>
+        {/* <Review></Review> */}
+        <Review></Review>
+
+        <ServiceSection></ServiceSection>
+
+        <WhyUs></WhyUs>
+
+        <Sponsors></Sponsors>
       </main>
     </>
-  )
+  );
 }
