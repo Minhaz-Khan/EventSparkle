@@ -1,0 +1,21 @@
+.title {
+    margin-bottom: 50px;
+  }
+  
+  .image_wrapper {
+    margin: 0px 30px;
+  }
+  
+  .image_wrapper img {
+    width: 130px;
+  }.title {
+  margin-bottom: 50px;
+}
+
+.image_wrapper {
+  margin: 0px 30px;
+}
+
+.image_wrapper img {
+  width: 130px;
+}

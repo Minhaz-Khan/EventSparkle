@@ -1,0 +1,4 @@
+.parallax {
+    background: url('../../../public/backgroung\ img\ for\ review.jpg') fixed 100%;
+    background-size: cover;
+}
