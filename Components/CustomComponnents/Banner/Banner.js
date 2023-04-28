@@ -37,12 +37,12 @@ const Banner = () => {
     };
 
     return (
-        <div >
+        <div className='w-full'>
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
-                    delay: 2500,
+                    delay: 5000,
                     disableOnInteraction: false,
                 }}
                 pagination={{
@@ -50,7 +50,7 @@ const Banner = () => {
                 }}
                 // navigation={true}
                 modules={[Autoplay, Pagination]}
-                className="mySwiper"
+                className="mySwiper w-full"
 
                 onSlideChange={handleSlideChange}
             >

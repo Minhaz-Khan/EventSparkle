@@ -21,7 +21,7 @@ module.exports = {
         text_Secondry: '#e9d6c2'
       },
       fontFamily: {
-        'El Messiri': ['El Messiri', 'sans - serif'],
+        El_Messiri: ['El Messiri'],
       },
     },
   },

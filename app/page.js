@@ -12,21 +12,21 @@ export default function Home() {
     <>
       <Head>
         <title>home page</title>
-    </Head>
-    
-    <main>
-    
-    <Banner></Banner>
-    
-    {/* <Review></Review> */}
-    <Review></Review>
+      </Head>
 
-    <ServiceSection></ServiceSection>
+      <main>
 
-    <WhyUs></WhyUs>
+        <Banner></Banner>
 
-    <Sponsors></Sponsors>
-    </main>
+        {/* <Review></Review> */}
+        <Review></Review>
+
+        <ServiceSection></ServiceSection>
+
+        <WhyUs></WhyUs>
+
+        <Sponsors></Sponsors>
+      </main>
     </>
   );
 }
