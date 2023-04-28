@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,9 +12,9 @@ import "swiper/css/navigation";
 
 
 import { Autoplay, Pagination, Navigation } from "swiper";
-import pic1 from '../../../public/1.jpg'
-import pic2 from '../../../public/2.jpg'
-import pic3 from '../../../public/3.jpg'
+import pic1 from '../../../public/1.jpg';
+import pic2 from '../../../public/2.jpg';
+import pic3 from '../../../public/3.jpg';
 import Image from 'next/image';
 import Slide from './Slide';
 
@@ -25,10 +25,10 @@ const Banner = () => {
         { id: 2, text1: "D R E A M   M A K E R", text2: "International & Destination", text3: "Wedding Planner", text4: "No matter your dreams - we can assist you in planning your", text5: "wedding - events", pic: `${pic2.src}` },
 
         { id: 3, text1: "D R E A M   M A K E R", text2: "International & Destination", text3: "Wedding Planner", text4: "No matter your dreams - we can assist you in planning your", text5: "wedding - events", pic: `${pic3.src}` },
-        
+
     ];
 
-    console.log(slides)
+    // console.log(slides)
 
     const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
@@ -62,7 +62,7 @@ const Banner = () => {
                 ))}
 
 
-                
+
 
 
 

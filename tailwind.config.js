@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -10,6 +10,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    letterSpacing: {
+      wider: '.1em',
+      widest: '.7em'
+    },
     extend: {
       colors: {
         bg_Primary: '#748173',
@@ -21,8 +25,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
-}
+  plugins: [require("daisyui")],
+};
 
 // bacground primary #748173
 // Text color #749383
