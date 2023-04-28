@@ -1,6 +1,6 @@
-"use client"
+"use client";
 import React from 'react';
-import './Parallax.css'
+import './Parallax.css';
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -13,9 +13,9 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination, Autoplay } from "swiper";
 
-import pic1 from '../../../public/avarta1.jpg'
-import pic2 from '../../../public/avarta2.jpg'
-import pic3 from '../../../public/avarta3.jpg'
+import pic1 from '../../../public/avarta1.jpg';
+import pic2 from '../../../public/avarta2.jpg';
+import pic3 from '../../../public/avarta3.jpg';
 import Image from 'next/image';
 
 const Review = () => {
@@ -56,7 +56,7 @@ const Review = () => {
                                         <Image src={pic1} alt="" className='w-16 h-16 border rounded-full mx-auto'></Image>
 
                                         <p className='text-[20px] mt-2 text-[#e9c0a4] font font-serif'>
-                                            Ms. Sayla 
+                                            Ms. Sayla
                                             <br />
                                             <span className='text-[14px] text-[#999999]'>Customer</span>
                                         </p>
@@ -133,7 +133,7 @@ const Review = () => {
             </div>
 
 
-            
+
 
         </div>
 

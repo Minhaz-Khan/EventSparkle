@@ -28,6 +28,7 @@ const ServiceSection = () => {
                     services.map((service, ind) => <ServiceCard key={ind} service={service} />)
                 }
             </div>
+
         </>
     );
 };

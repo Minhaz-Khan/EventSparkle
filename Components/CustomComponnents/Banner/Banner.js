@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,9 +12,9 @@ import "swiper/css/navigation";
 
 
 import { Autoplay, Pagination, Navigation } from "swiper";
-import pic1 from '../../../public/1.jpg'
-import pic2 from '../../../public/2.jpg'
-import pic3 from '../../../public/3.jpg'
+import pic1 from '../../../public/1.jpg';
+import pic2 from '../../../public/2.jpg';
+import pic3 from '../../../public/3.jpg';
 import Image from 'next/image';
 import Slide from './Slide';
 
@@ -28,7 +28,7 @@ const Banner = () => {
 
     ];
 
-    console.log(slides)
+    // console.log(slides)
 
     const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
