@@ -7,7 +7,7 @@ import './Slide.css'
 const Slide = ({ slide, isActive }) => {
 
     // console.log(slide)
-    const {text1,text2,text3,text4,text5,pic} = slide;
+    const { text1, text2, text3, text4, text5, pic } = slide;
     // console.log(pic)
 
     const textRef = useRef(null);
@@ -27,11 +27,11 @@ const Slide = ({ slide, isActive }) => {
 
     return (
         <div>
-            <div className='relative h-[750px]'>
+            <div className='relative h-screen'>
                 {/* <img src={pic1} alt="" className='h-[600px] w-full' /> */}
-                
-                
-                <Image src={pic} width={1000} height={750} className='w-full h-full'></Image>
+
+
+                <Image src={pic} width={1000} height={1000} className='w-full'></Image>
 
                 <div className="absolute lg:mx-0 sm:ml-5 lg:left-[166px] bottom-28 bg-white p-[45px] lg:w-[540px] h-[280px]">
 
@@ -53,16 +53,11 @@ const Slide = ({ slide, isActive }) => {
                             className={`opacity-0 transition-opacity duration-1000 ease-out delay-100 ${isActive ? "opacity-100 text-1" : ""
                                 }`}>{text5}</p>
 
-
-
                         {/* <p className='text-[36px]'>International & Destination</p>
                         <p className='text-[36px]'>Wedding Planner</p>
 
                         <p className='text-[16px]'>No matter your dreams - we can assist you in planning your</p>
                         <p>wedding - events</p> */}
-
-
-
 
                     </div>
 

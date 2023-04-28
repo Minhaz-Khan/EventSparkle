@@ -25,7 +25,7 @@ const Banner = () => {
         { id: 2, text1: "D R E A M   M A K E R", text2: "International & Destination", text3: "Wedding Planner", text4: "No matter your dreams - we can assist you in planning your", text5: "wedding - events", pic: `${pic2.src}` },
 
         { id: 3, text1: "D R E A M   M A K E R", text2: "International & Destination", text3: "Wedding Planner", text4: "No matter your dreams - we can assist you in planning your", text5: "wedding - events", pic: `${pic3.src}` },
-        
+
     ];
 
     console.log(slides)
@@ -37,12 +37,12 @@ const Banner = () => {
     };
 
     return (
-        <div >
+        <div className='w-full'>
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
-                    delay: 2500,
+                    delay: 5000,
                     disableOnInteraction: false,
                 }}
                 pagination={{
@@ -50,7 +50,7 @@ const Banner = () => {
                 }}
                 // navigation={true}
                 modules={[Autoplay, Pagination]}
-                className="mySwiper"
+                className="mySwiper w-full"
 
                 onSlideChange={handleSlideChange}
             >
@@ -62,7 +62,7 @@ const Banner = () => {
                 ))}
 
 
-                
+
 
 
 
