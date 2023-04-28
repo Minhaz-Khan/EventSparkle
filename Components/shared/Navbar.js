@@ -19,11 +19,11 @@ const Navbar = () => {
     //     toast.success('logOut successfully')
     //   })
   }
-  window.addEventListener('scroll', function () {
-    const navbar = document.querySelector('.navbar');
-    // get the reference
-    const heroHeader = ''
-  })
+  // window.addEventListener('scroll', function () {
+  //   const navbar = document.querySelector('.navbar');
+  //   // get the reference
+  //   const heroHeader = ''
+  // })
   return (
     <header className=" ">
       <nav x-data="{ isOpen: false }" className="navbar transition-all  shadow dark:bg-gray-800 absolute z-10 left-0 right-0 top-0">
@@ -98,8 +98,8 @@ const Navbar = () => {
           {/* <!-- Mobile Menu open: "block", Menu closed: "hidden" --> */}
           <div
             className={`${isOpen
-                ? "translate-x-0 opacity-95 "
-                : "opacity-0 -translate-x-full "
+              ? "translate-x-0 opacity-95 "
+              : "opacity-0 -translate-x-full "
               }absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center`}
           >
             <div className="flex flex-col md:flex-row justify-items-center md:mx-6">
