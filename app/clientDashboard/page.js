@@ -1,11 +1,7 @@
-"use client"
-import { usePathname } from 'next/navigation';
 import React from 'react'
-
-export default function ClientDashboard() {   
-  const pathname = usePathname();
-  console.log(pathname)
+export default function ClientDashboard() { 
+      
   return (
-    <div>ClientDashboard</div>
+    <div className='h-screen mt-28'>dashboard</div>
   )
 }
