@@ -1,3 +1,4 @@
+import AllService from '@/Components/CustomComponnents/AllService/AllService'
 import Head from 'next/head'
 
 export default function Services() {
@@ -8,7 +9,8 @@ export default function Services() {
     </Head>
 
     <main>
-    <h1>Services Page</h1>
+    
+    <AllService></AllService>
     </main>
     </>
   )

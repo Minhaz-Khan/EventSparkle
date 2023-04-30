@@ -1,0 +1,65 @@
+[
+    {
+      "_id":"01",
+      "service_name": "Wedding Arrangement",
+      "company_name": "Heartfelt Films",
+      "saler_email": "abc@gmail.com",
+      "details": "At Heartfelt Films, we believe that every love story deserves to be told through a beautiful wedding film. Our team of talented videographers will capture the magic of your big day and turn it into a cinematic masterpiece that you'll treasure forever. Let us help you create a timeless tribute to your love story. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/sQZ9Nws/e6.jpg",
+      "price":"150",
+      "rating":"4.4"
+    },
+    {
+      "_id":"02",
+      "service_name": "Wedding Arrangement",
+      "company_name": "Forever Flowers",
+      "saler_email": "def@gmail.com",
+      "details": "At Forever Flowers, we specialize in creating stunning floral arrangements for weddings. Our expert florists will work with you to design the perfect bouquet, centerpieces, and decorations that match your vision and style. Let us help you bring your dream wedding to life. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/GT2S7LN/e5.jpg",
+      "price":"150",
+      "rating":"4.4"
+    },
+    {
+      "_id":"03",
+      "service_name": "Wedding Arrangement",
+      "company_name": "Elegant Events",
+      "saler_email": "ghi@gmail.com",
+      "details": "At Elegant Events, we offer comprehensive wedding planning and coordination services. From venue selection to vendor management, our experienced planners will handle every detail to ensure that your special day is flawless and stress-free. Let us help you create a wedding that exceeds your expectations. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/mqqWTbx/e4.jpg",
+      "price":"150",
+      "rating":"4.4"
+    },
+    {
+      "_id":"04",
+      "service_name": "Wedding Arrangement",
+      "company_name": "Sparkle and Shine",
+      "saler_email": "jkl@gmail.com",
+      "details": "At Sparkle and Shine, we provide top-notch wedding photography services. Our team of talented photographers will capture every moment of your special day in stunning detail, so you can relive your memories for years to come. Let us help you make your wedding day unforgettable. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/ZLP72Ct/e3.jpg",
+      "price":"150",
+      "rating":"4.4"
+    },
+    {
+      "_id":"05",
+      "service_name": "Wedding Arrangement",
+      "company_name": "Aisle Style",
+      "saler_email": "mno@gmail.com",
+      "details": "At Aisle Style, we specialize in bridal hair and makeup. Our experienced stylists will work with you to create the perfect look that enhances your natural beauty and complements your wedding dress. Let us help you feel confident and beautiful on your special day. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/xfVN4Ks/e2.jpg",
+      "price":"150",
+      "rating":"4.4"
+    },
+    {
+      "_id":"06",
+      "service_name": "Wedding Arrangement",
+      "company_name": "Delicious Delights",
+      "saler_email": "pqr@gmail.com",
+      "details": "At Delicious Delights, we create customized wedding cakes and desserts that taste as good as they look. Our talented bakers will work with you to design a cake that reflects your unique style and tastes amazing. Let us help you add a sweet touch to your wedding day. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/q1HJZZ6/e1.jpg",
+      "price":"150",
+      "rating":"4.4"
+    }
+  ]
+  
+  
+  

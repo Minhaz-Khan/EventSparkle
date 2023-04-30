@@ -1,0 +1,64 @@
+[
+    {
+      "_id":"01",
+      "service_name": "Wedding Photography",
+      "company_name": "Forever Films",
+      "saler_email": "abc@gmail.com",
+      "details": "At Forever Films, we specialize in creating stunning wedding films that capture the essence of your big day. Our experienced team uses state-of-the-art equipment and techniques to create a unique and beautiful cinematic experience. Let us help you relive the memories of your wedding day for years to come. Contact us today to book your wedding film package.",
+      "pic": "https://i.ibb.co/YLtq8PT/p6.jpg",
+      "price":"200",
+      "rating":"4.6"
+    },
+    {
+      "_id":"02",
+      "service_name": "Wedding Photography",
+      "company_name": "Memories in Motion",
+      "saler_email": "def@gmail.com",
+      "details": "At Memories in Motion, we are passionate about creating beautiful and timeless wedding photography. Our team of talented photographers will capture every special moment of your big day, from getting ready to saying 'I do' to the reception. Let us help you tell the story of your wedding day through stunning photographs. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/zxT5YhS/p5.jpg",
+      "price":"200",
+      "rating":"4.6"
+    },
+    {
+      "_id":"03",
+      "service_name": "Wedding Photography",
+      "company_name": "Dreamscape Studios",
+      "saler_email": "ghi@gmail.com",
+      "details": "At Dreamscape Studios, we specialize in capturing the magic and romance of your wedding day through breathtaking photography. Our team of skilled photographers will work with you to create a customized package that fits your needs and budget. Let us help you preserve the memories of your special day forever. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/RPJBdRY/p4.jpg",
+      "price":"200",
+      "rating":"4.6"
+    },
+    {
+      "_id":"04",
+      "service_name": "Wedding Photography",
+      "company_name": "Eternal Memories",
+      "saler_email": "jkl@gmail.com",
+      "details": "At Eternal Memories, we are dedicated to capturing the beauty and emotion of your wedding day through stunning photography. Our team of experienced photographers will work with you to create a customized package that fits your vision and budget. Let us help you create lasting memories of your special day. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/zxZjHr6/p3.jpg",
+      "price":"200",
+      "rating":"4.6"
+    },
+    {
+      "_id":"05",
+      "service_name": "Wedding Photography",
+      "company_name": "Artistic Vision",
+      "saler_email": "mno@gmail.com",
+      "details": "At Artistic Vision, we specialize in creating beautiful and unique wedding photographs that capture the essence of your love story. Our team of creative photographers will work with you to create a customized package that fits your needs and style. Let us help you create a one-of-a-kind album that you'll treasure for a lifetime. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/b1XTVqL/p2.jpg",
+      "price":"200",
+      "rating":"4.6"
+    },
+    {
+      "_id":"06",
+      "service_name": "Wedding Photography",
+      "company_name": "Cherished Moments",
+      "saler_email": "pqr@gmail.com",
+      "details": "At Cherished Moments, we believe that your wedding day is one of the most important days of your life, and we're dedicated to capturing every moment. Our team of experienced photographers will work with you to create a package that fits your needs and budget. Let us help you create beautiful memories that will last a lifetime. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/zhy98vy/p1.jpg",
+      "price":"200",
+      "rating":"4.6"
+    }
+  ]
+  
+  

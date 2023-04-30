@@ -21,7 +21,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
 // bacground primary #748173

@@ -1,0 +1,64 @@
+[
+    {
+      "_id":"01",
+      "service_name": "Event Arrangement",
+      "company_name": "Enchanting Events",
+      "saler_email": "efg@gmail.com",
+      "details": "At Enchanting Events, we believe that every event should be an expression of your unique personality and style. Our team of experienced planners will work with you to create a celebration that is tailored to your specific needs and preferences. Let us help you plan an event that you and your guests will never forget. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/KrmpxfM/m1.jpg",
+      "price":"100",
+      "rating":"4.5"
+    },
+    
+    {
+      "_id":"02",
+      "service_name": "Event Arrangement",
+      "company_name": "Celebrations & Co.",
+      "saler_email": "pqr@gmail.com",
+      "details": "At Celebrations & Co., we believe that every event should be as unique as the person hosting it. Our team of experienced planners will work with you to create a customized experience that reflects your personal style and exceeds your expectations. Let us help you plan a celebration that you and your guests will never forget. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/mhtdn3f/m2.jpg",
+      "price":"100",
+      "rating":"4.5"
+    },
+    {
+      "_id":"03",
+      "service_name": "Event Arrangement",
+      "company_name": "Dreamy Events",
+      "saler_email": "stu@gmail.com",
+      "details": "At Dreamy Events, we are passionate about creating unforgettable experiences for our clients. From weddings to corporate events, our team of talented planners and designers will bring your vision to life. Let us help you plan an event that will leave a lasting impression on your guests. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/CtGCxst/m3.jpg",
+      "price":"100",
+      "rating":"4.5"
+    },
+    {
+      "_id":"04",
+      "service_name": "Event Arrangement",
+      "company_name": "Blissful Moments",
+      "saler_email": "vwx@gmail.com",
+      "details": "At Blissful Moments, we believe that every event should be a reflection of your personal style and taste. Our team of experienced planners will work with you to create a unique and unforgettable experience for you and your guests. Let us help you plan a celebration that you will cherish for a lifetime. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/568vB9L/m4.jpg",
+      "price":"100",
+      "rating":"4.5"
+    },
+    {
+      "_id":"05",
+      "service_name": "Event Arrangement",
+      "company_name": "Radiant Events",
+      "saler_email": "yza@gmail.com",
+      "details": "At Radiant Events, we understand that your event is a reflection of your unique style and personality. That's why our team of experienced planners and designers work tirelessly to ensure that every detail is perfect. Let us help you create a one-of-a-kind celebration that you and your guests will never forget. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/znM3FhK/m5.jpg",
+      "price":"100",
+      "rating":"4.5"
+    },
+    {
+      "_id":"06",
+      "service_name": "Event Arrangement",
+      "company_name": "Magical Moments",
+      "saler_email": "bcd@gmail.com",
+      "details": "At Magical Moments, we are dedicated to creating unforgettable events that exceed your expectations. From weddings to corporate events, our team of experienced planners will work with you to bring your vision to life. Let us help you plan a celebration that will leave a lasting impression on your guests. Contact us today to learn more.",
+      "pic": "https://i.ibb.co/sg3778c/m6.jpg",
+      "price":"100",
+      "rating":"4.5"
+    }
+    
+    ]
