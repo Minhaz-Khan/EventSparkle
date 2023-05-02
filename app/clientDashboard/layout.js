@@ -1,17 +1,18 @@
-import SideBar from '@/Components/DashboardComponents/SideBar'
-import React from 'react'
+import SideBar from "@/Components/DashboardComponents/Sidbar";
 
-export default function DashboardLayout({children}) {
+function dashboardLayout({children}) {
   return (
-    <>
-    <div className='mt-28 grid grid-cols-4'>
+    <div className='h-screen'>
+      <div className='grid grid-cols-4'>
         <div className="left-side col-span-1 border-r">
             <SideBar></SideBar>
         </div>
-        <div className="right-side">
+        <div className="right-side col-span-3">
             {children}
         </div>
     </div>
-    </>
+    </div>
   )
 }
+
+export default dashboardLayout;

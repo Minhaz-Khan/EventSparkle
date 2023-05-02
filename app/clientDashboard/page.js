@@ -1,7 +1,7 @@
-import React from 'react'
+
 export default function ClientDashboard() { 
-      
+
   return (
-    <div className='h-screen mt-28'>dashboard</div>
+    <div><h1>dashboard</h1></div>
   )
 }

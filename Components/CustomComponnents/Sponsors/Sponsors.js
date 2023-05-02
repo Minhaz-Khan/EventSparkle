@@ -8,9 +8,6 @@ import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 
-
-
-
 // import required modules
 import { EffectCoverflow, Grid, Pagination } from "swiper";
 
