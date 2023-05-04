@@ -1,4 +1,5 @@
 "use client"
+import Button from "@/Components/shared/Buttton";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { FcGoogle } from "react-icons/fc";
@@ -143,9 +144,12 @@ const SignUp = () => {
               <p className="text-red-600">{errors.type.message}</p>
             )}
           </div>
-          <button className="block w-full p-3 text-center btn rounded-sm text-white bg-blue-600">
-            SignUp
-          </button>
+          
+          <Button
+            className="block w-full p-3 text-center rounded-sm"
+            varientColor={"secondary"}
+            text={"Sign Up"}
+          ></Button>
         </form>
         <div className="flex items-center pt-4 space-x-1">
           <div className="flex-1 h-px sm:w-16 bg-gray-700"></div>
