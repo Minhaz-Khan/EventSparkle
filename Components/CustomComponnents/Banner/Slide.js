@@ -31,7 +31,7 @@ const Slide = ({ slide, isActive }) => {
                 {/* <img src={pic1} alt="" className='h-[600px] w-full' /> */}
 
 
-                <Image src={pic} width={1000} height={1000} className='w-full'></Image>
+                <Image src={pic} width={1000} height={1000} className='w-full' alt=''></Image>
 
                 <div className="absolute lg:mx-0 sm:ml-5 lg:left-[166px] bottom-28 bg-white p-[45px] lg:w-[540px] h-[280px]">
 

@@ -8,9 +8,6 @@ import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 
-
-
-
 // import required modules
 import { EffectCoverflow, Grid, Pagination } from "swiper";
 
@@ -48,7 +45,8 @@ console.log(images.indexOf())
       >
         {
           images.map((image, index)=>
-          <SwiperSlide className="bg-center bg-cover w-[200px] h-[200px]"
+          <SwiperSlide
+          className="bg-center bg-cover w-[200px] h-[200px]"
           key={index}>
           <img src={image} className="block w-full" />
         </SwiperSlide>)

@@ -1,3 +1,4 @@
+
 import Banner from "@/Components/CustomComponnents/Banner/Banner";
 import ServiceSection from "@/Components/CustomComponnents/ServiceSection/ServiceSection";
 import Sponsors from "@/Components/CustomComponnents/Sponsors/Sponsors";
@@ -8,6 +9,7 @@ import Head from "next/head";
 
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -15,6 +17,8 @@ export default function Home() {
       </Head>
 
       <main>
+
+        
 
         <Banner></Banner>
 
