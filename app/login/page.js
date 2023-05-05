@@ -17,7 +17,7 @@ const Login = () => {
     const datas = { email, password };
     console.log(datas);
   };
-  const handelGoogle = () => {};
+  const handelGoogle = () => { };
   return (
     <div>
       <div className="w-full max-w-md p-8 mx-auto my-6 bg-bg_Primary shadow-lg shadow-blue-500/50  space-y-3 rounded-xl text-gray-100">
@@ -67,7 +67,7 @@ const Login = () => {
               <button type="Link"> Forgot Password?</button>
             </div>
           </div>
-          
+
           <Button
             className="block w-full p-3 text-center rounded-sm"
             varientColor={"secondary"}
