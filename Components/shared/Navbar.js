@@ -38,7 +38,7 @@ const Navbar = () => {
     window.addEventListener("scroll", listenToScroll);
   }, []);
   return (
-    <header className={`${pathname === '/' && isVisible && "fixed top-0 left-0 right-0 shadow  z-30"}`}>
+    <header className={`${pathname === '/' && isVisible && "fixed top-0 left-0 right-0 shadow  z-30 inset-y-0 transition-all duration-600 ease-in-out"}`}>
       <nav className={`navbar  shadow ${isVisible && "bg-white transition-all"} ${pathname === '/' && "absolute"} z-10 dark:bg-gray-800`}>
         <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between z-40 max-md:w-full">
@@ -46,10 +46,12 @@ const Navbar = () => {
               <img className="w-auto md:h-10 mr-2 h-7" src='' alt="" />
               <h4 className='text-4xl text-text_Primary font-El_Messiri font-semibold'>EventSparkle</h4>
             </Link>
-            <div className="flex  lg:hidden">
-              <label
+            <div className="flex lg:hidden">
+              {/* dashboard toggle button */}
+              {
+                pathname === '/clientDashboard' && <label
                 htmlFor="dashboard-drawer"
-                className="text-gray-500 btn btn-ghost dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
+                className="text-gray-500 btn btn-ghost dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400 md:hidden"
                 aria-label="toggle menu"
               >
                 <svg
@@ -66,7 +68,9 @@ const Navbar = () => {
                     d="M4 8h16M4 16h16"
                   />
                 </svg>
-              </label>{" "}
+              </label>
+              }
+              {" "}
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
