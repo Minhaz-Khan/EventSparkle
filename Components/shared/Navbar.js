@@ -9,7 +9,7 @@ import { usePathname } from 'next/navigation';
 const Navbar = () => {
   // const { user, logOut } = useContext(AuthContext)
   const pathname = usePathname();
-  console.log(pathname)
+  // console.log(pathname)
   const user = true;
   const [isOpen, setIsOpen] = useState(false)
 
@@ -22,11 +22,14 @@ const Navbar = () => {
 
   // work with scroll
   const [isVisible, setIsVisible] = useState(false);
-  console.log(isVisible)
+  const [scrollPx, setScrollPx] = useState(null);
+  console.log(scrollPx)
+
   const listenToScroll = () => {
     let heightToHidden = 650;
     const windowScrolled =
       document.body.scrollTop || document.documentElement.scrollTop;
+      setScrollPx(windowScrolled)
     if (windowScrolled > heightToHidden) {
       setIsVisible(true);
     } else {
@@ -38,7 +41,7 @@ const Navbar = () => {
     window.addEventListener("scroll", listenToScroll);
   }, []);
   return (
-    <header className={`${pathname === '/' && isVisible && "fixed top-0 left-0 right-0 shadow  z-30 inset-y-0 transition-all duration-600 ease-in-out"}`}>
+    <header className={`${pathname === '/' && isVisible && "fixed top-0 left-0 right-0 shadow  z-30 inset-y-0 transition-all duration-600 ease-in-out"} ${pathname !== '/' && scrollPx > 300 && "fixed top-0 left-0 right-0 z-40 bg-white"}`}>
       <nav className={`navbar  shadow ${isVisible && "bg-white transition-all"} ${pathname === '/' && "absolute"} z-10 dark:bg-gray-800`}>
         <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between z-40 max-md:w-full">
